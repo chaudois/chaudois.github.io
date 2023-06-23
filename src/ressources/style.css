@@ -1,0 +1,100 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.solene {
+    color: darkblue;
+    font-family: 'Alex Brush';
+}
+
+.damien {
+    color: grey;
+    font-family: 'Azeret Mono';
+}
+
+.fabienne {
+    margin-top: 100px;
+    color: darkred;
+}
+
+.valeriane {
+    color: black;
+    font-family: 'Alfa Slab One';
+}
+
+.label {
+    pointer-events: none;
+    margin-top: 100px;
+    font-size: 7em;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#NW {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: orange
+}
+
+#NE {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 50%;
+    background: blue
+}
+
+#SW {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 0;
+    background: green
+}
+
+#SE {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    background: red
+}
+
+#SE,
+#SW {
+    border-top: 1px solid white;
+}
+
+#NE,
+#SE {
+    border-left: 1px solid white;
+}
